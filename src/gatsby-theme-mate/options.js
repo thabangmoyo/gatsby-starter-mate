@@ -1,13 +1,13 @@
 export default {
   topbar: {
     sticky: true,
-    maxWidth: 1260,
+    maxWidth: 100%,
   },
   header: {
     sticky: true,
     stickyMobile: true,
-    maxWidth: 1260,
-    mobileNavWidth: 300,
+    maxWidth: 100%,
+    mobileNavWidth: 100%,
     mobileAnimation: "fade", // fade, fadeInUp, fadeInDown, slideRight, slideLeft
     spring: { tension: 170, friction: 26 }, // React Spring config object for your MobileNav
   },
@@ -16,14 +16,14 @@ export default {
     spring: { tension: 170, friction: 26 }, // spring config for your responsive SideNav
   },
   content: {
-    maxWidth: 1020,
+    maxWidth: 100%,
     gridGap: 30,
   },
   sidebar: {
     width: ".3fr",
   },
   footer: {
-    maxWidth: 1020,
+    maxWidth: 100%,
     gridGap: 30,
   },
   breakpoints: {
