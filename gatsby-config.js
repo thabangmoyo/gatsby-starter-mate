@@ -4,8 +4,8 @@ const plugins = [
   {
     resolve: `gatsby-theme-mate`,
     options: {
-      accessToken: E-MX8PtmOfmDnhuubm9b18eUmlBH0-8UIGDLFv59Vkc,
-      spaceId: 6vfhdxoguatc,
+      accessToken: `E-MX8PtmOfmDnhuubm9b18eUmlBH0-8UIGDLFv59Vkc`,
+      spaceId: `6vfhdxoguatc`,
     },
   },
 ];
